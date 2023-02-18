@@ -1,6 +1,10 @@
-function MenuBar() {
+interface PersonProps {
+    children?: React.ReactNode;
+}
+function Header(props : PersonProps) {
     return (
-        <ul>
+        <>
+            <ul>
             <li><a className="active" href="#home">Home</a></li>
             <li><a href="#news">Create Activity</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -9,7 +13,9 @@ function MenuBar() {
                 <a href="javascript:void(0)" className="dropbtn">Dropdown</a>
             </li>
         </ul>
+            {props.children}
+        </>
 );
 }
 
-export default MenuBar;
+export default Header;

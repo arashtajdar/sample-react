@@ -1,16 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
-import MenuBar from "./components/MenuBar";
+import Header from "./components/Header";
 import Footer from './components/Footer';
 import Activities from "./components/Activities";
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 import './App.css';
 function App() {
   return (
     <div className="App">
-      <MenuBar></MenuBar>
- <Activities></Activities>
-<Footer></Footer>
+        <Header>
+            <BrowserRouter>
+                <Routes>
+                    <Route path={"/"} element={<Activities/>}></Route>
+                </Routes>
+            </BrowserRouter>
+            <Footer></Footer>
+        </Header>
+
+
     </div>
   );
 }

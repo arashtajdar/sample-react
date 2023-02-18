@@ -19,7 +19,7 @@ function Activities() {
                 <div className="categories">
                 {Activities.map((item) => (
                     <div className="categories_item" key={item.Activity_id}>
-                        <a href="" className="">
+                        <a href="/" className="">
                             <span><img className="activity-thumbnail" src="https://media.licdn.com/dms/image/sync/D5618AQEuOiIsSCZUHw/companyUpdate-article-image-shrink_627_1200/0/1676589899160/Deploy1png?e=1679529600&v=beta&t=VzhBOmFxls-W-CmB662L4BCpynZ2f2PQyuznMmoTxus"></img></span><br></br>
                             <span>Name : {item.Activity_title}</span><br></br>
                             <span>description : {item.Activity_description}</span><br></br>
