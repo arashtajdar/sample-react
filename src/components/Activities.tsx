@@ -15,6 +15,7 @@ function Activities() {
     },[]);
     return (
         <div className="container">
+            <h2>there are {Activities.length} Activities</h2>
             <div className="div content">
                 <div className="categories">
                 {Activities.map((item) => (
