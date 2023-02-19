@@ -1,9 +1,11 @@
+import CreateNewActivity from "../components/CreateNewActivity";
 
 function ManageActivities(){
     createNewActivity();
     return (
         <>
             <h3>Manage activities!</h3>
+            <CreateNewActivity></CreateNewActivity>
             <button value="SEND" onClick={ () => createNewActivity() }>SEND</button>
         </>
     );
