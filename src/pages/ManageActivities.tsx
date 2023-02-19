@@ -1,4 +1,3 @@
-import {json} from "react-router-dom";
 
 function ManageActivities(){
     createNewActivity();
