@@ -20,7 +20,7 @@ function Activities() {
             <div className="div content">
                 <div className="categories">
                 {Activities.map((item) => (
-                    <ActivityCard data={item}></ActivityCard>
+                    <ActivityCard key={item.Activity_id} data={item}></ActivityCard>
                 ))}
                 </div>
             </div>

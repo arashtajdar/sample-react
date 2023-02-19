@@ -1,4 +1,3 @@
-import {ActivityInterface} from "../Interfaces/ActivityInterface";
 import {ActivityCardInterface} from "../Interfaces/ActivtiyCardInterface";
 
 function ActivityCard(props : ActivityCardInterface) {
