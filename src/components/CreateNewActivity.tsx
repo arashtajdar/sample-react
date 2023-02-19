@@ -147,7 +147,7 @@ function CreateNewActivity() {
                                 <Form.Group className="mb-3" controlId="formBasicEmail">
                                     <Form.Label>start date</Form.Label>
                                     <Form.Control
-                                        type="text"
+                                        type="datetime-local"
                                         placeholder="Start date"
                                         value={start}
                                         onChange={(e) => setStart(e.target.value)}
@@ -162,7 +162,7 @@ function CreateNewActivity() {
                                 <Form.Group className="mb-3" controlId="formBasicEmail">
                                     <Form.Label>End</Form.Label>
                                     <Form.Control
-                                        type="text"
+                                        type="datetime-local"
                                         placeholder="Enter End date and time"
                                         value={end}
                                         onChange={(e) => setEnd(e.target.value)}
