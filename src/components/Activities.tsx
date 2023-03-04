@@ -17,13 +17,15 @@ function Activities() {
     return (
         <div className="container">
             <h2>there are {Activities.length} Activities</h2>
-            <div className="div content">
-                <div className="categories">
+            <section >
+                <div className="container py-5">
+                    <div className="row">
                 {Activities.map((item) => (
                     <ActivityCard key={item.Activity_id} data={item}></ActivityCard>
                 ))}
                 </div>
             </div>
+            </section>
         </div>
 );
 }

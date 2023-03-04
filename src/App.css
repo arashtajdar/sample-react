@@ -105,7 +105,6 @@ a {
 .categories_item {
     flex: 1 0 25%; /* NEW */
     margin: 5px; /* NEW */
-    background-color: #606068ed;
     padding: 20px;
 }
 
