@@ -1,107 +1,117 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
+
 li {
-  float: left;
+    float: left;
 }
+
 li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
+
 li a:hover {
-  background-color: #111;
+    background-color: #111;
 }
+
 .footer {
-  background-color: #444;
-  padding: 10px;
-  text-align: center;
+    padding: 10px;
+    text-align: center;
+    float: left;
+    width: 100%;
+    background: #bfbebe;
 }
+
 .column {
-  float: left;
-  width: 32%;
-  padding: 5px;
+    float: left;
+    width: 32%;
+    padding: 5px;
 }
+
 a {
-  color: #f1f1f1;
-  text-decoration: none;
+    color: #f1f1f1;
+    text-decoration: none;
 }
 
 .container {
-  float: left;
-  width: 100%;
+    float: left;
+    width: 100%;
+    min-height: 500px;
 }
 
 .content {
-  width: 94%;
-  margin: 0px auto;
-  padding: 30px;
+    width: 94%;
+    margin: 0px auto;
+    padding: 30px;
 }
 
 .categories {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;                /* NEW */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* NEW */
 }
 
 .categories_item a {
-  color: white;
+    color: white;
 }
 
 .categories_item {
-  flex: 1 0 25%;                 /* NEW */
-  margin: 5px;                   /* NEW */
-  background-color: #606068ed;
-  padding: 20px;
+    flex: 1 0 25%; /* NEW */
+    margin: 5px; /* NEW */
+    background-color: #606068ed;
+    padding: 20px;
 }
 
-.activity-thumbnail{
-  width: 100px;
-  height: 100px;
-  float: left;
+.activity-thumbnail {
+    width: 100%;
+    height: auto;
+    float: left;
+    max-width: 300px;
 }
