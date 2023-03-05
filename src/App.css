@@ -118,3 +118,8 @@ a {
 .copyright-footer{
     background-color: rgba(0, 0, 0, 0.05);
 }
+
+.activity-list{
+    width: 90% !important;
+    margin: 20px auto;
+}

@@ -3,9 +3,6 @@ import {ActivityCardInterface} from "../Interfaces/ActivtiyCardInterface";
 function ActivityCard(props : ActivityCardInterface) {
     return (
         <div className="categories_item" key={props.data.Activity_id}>
-            {/*<a href="/" className="">*/}
-            {/*    <span>Start : {props.data.Activity_start}</span> - <span>End : {props.data.Activity_end}</span><br></br>*/}
-            {/*</a>*/}
                 <div className="card">
                     <div className="d-flex justify-content-between p-3">
                     </div>

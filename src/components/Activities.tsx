@@ -5,7 +5,6 @@ import ActivityCard from "./ActivityCard";
 function Activities() {
     const [Activities, setActivities] = useState(Array<ActivityInterface>);
 
-
     useEffect(()=>{
         fetch("http://127.0.0.1:8000/api/Activities")
             .then((response) => response.json())
